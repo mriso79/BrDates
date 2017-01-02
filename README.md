@@ -1,7 +1,8 @@
 # BrDates
 
 Uma pequena biblioteca de funções para se tratar datas no formato BR, utilizando PHP.
-use "minimum-stability":"dev", no seu composer.
+
+Use "minimum-stability":"dev", no seu composer.
 
 Verifique os comments da classe e seus métodos:
 
