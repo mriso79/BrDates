@@ -12,6 +12,7 @@ Verifique os comments da classe e seus métodos:
     public static function DateBRsm( $date ) 
     
     Retorna a Data da ocorrência, se for menos de 1 dia mostra o horário
+    estilo chat do face
     public static function TempoAmigaveldaAcao( $date ) 
     
     Formata a data em Formato MySQL
