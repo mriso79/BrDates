@@ -2,6 +2,8 @@
 
 Uma pequena biblioteca de funções para se tratar datas no formato BR, utilizando PHP.
 
+Use "minimum-stability":"dev", no seu composer.
+
 Verifique os comments da classe e seus métodos:
 
     Formata a data do banco em formato Brasileiro, ignorando a hora
