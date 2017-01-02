@@ -29,5 +29,5 @@ Verifique os comments da classe e seus métodos:
     Subtrai dias a uma data
     public static function subDays($originDate, $days)
     
-    Diferença de dias entre uma data
+    Diferença de dias entre uma data (ex: echo $intervalo->d;)
     public static function diferencaDiasData($data1, $data2)
