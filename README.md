@@ -6,28 +6,16 @@ Use "minimum-stability":"dev", no seu composer.
 
 Verifique os comments da classe e seus métodos:
 
-    Formata a data do banco em formato Brasileiro, ignorando a hora
-    public static function DateBR( $date ) 
-    
-    Formata a data do banco em formato Brasileiro, ignorando a hora
-    porém ignora zero a esquerda no dia
-    public static function DateBRsm( $date ) 
-    
-    Retorna a Data da ocorrência, se for menos de 1 dia mostra o horário
-    estilo chat do face
-    public static function TempoAmigaveldaAcao( $date ) 
-    
-    Formata a data em Formato MySQL
-    public static function unDateBR ( $date )
-    
-    Formata a data em formato MySQL, quando a Data é BR + Tempo
-    public static function unDateTimeBR ( $BRdatetime ) 
-    
-    Soma dias a uma data
-    public static function sumDays($originDate, $days)
-    
-    Subtrai dias a uma data
-    public static function subDays($originDate, $days)
-    
-    Diferença de dias entre uma data (ex: echo $intervalo->d;)
-    public static function diferencaDiasData($data1, $data2)
+use BrDates\BrDates;
+
+echo BrDates::DateBR('2016-11-05') . '<br>';
+echo BrDates::DateBRsm('2016-12-08') . '<br>';
+
+$intervalo = BrDates::diferencaDiasData('2016-12-08', '2016-12-12');
+echo $intervalo->d . '<br>';
+
+echo BrDates::subDays('2016-10-15', 5) . '<br>';
+echo BrDates::sumDays('2016-10-15', 5) . '<br>';
+
+echo BrDates::TempoAmigaveldaAcao(date('Y-m-d H:i:s')) . '<br>';
+echo BrDates::TempoAmigaveldaAcao('2017-01-01 00:10:00') . '<br>';
