@@ -8,6 +8,5 @@
             "email": "mrphp7@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {}
 }
