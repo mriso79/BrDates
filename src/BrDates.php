@@ -48,7 +48,7 @@ class BrDates
             if($current_date == $informed_date){
                 return date("H:i", strtotime($date));
             }else{
-                return date("d/m/Y", strtotime($date));
+                return date("d/m/Y H:i:s", strtotime($date));
             }
 
         }
