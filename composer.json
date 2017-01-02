@@ -1,0 +1,13 @@
+{
+    "name": "mriso_dev/br-dates",
+    "description": "Uma pequena biblioteca de funções para se tratar datas no formato BR, utilizando PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcos Riso",
+            "email": "mrphp7@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
